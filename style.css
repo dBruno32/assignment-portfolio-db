@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+
+body {
+    background-color: #eccfa9 ;
+}
+
+.banner {
+    background-color: #d67e0b;
+    text-align: right;
+    padding-right: 5px;
+    padding-bottom: 2.5px;
+}
+
+.banner h3 {
+    color: #ffffff;
+    font-style: italic;
+}
+
+#menu-items a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-items a:hover {
+    font-style: oblique;
+    color: #ebdddd;
+}
+
+#menu-items li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 2.5px;
+    padding-right: .5px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+#current-page {
+    color: #ebdddd;
+    font-size: smaller;
+}
+
+#current-page:hover {
+    font-style: normal !important;
+
+}
